@@ -157,7 +157,7 @@ def get_sms_code(mobile):
         return jsonify(errno=RET.DBERR, errmsg="redis数据库异常")
 
     # 判断图片验证码是否过期
-    print(real_image_code)
+    # print(real_image_code)
     if real_image_code is None:
         # 表示图片验证码没有或者过期
         return jsonify(errno=RET.NODATA, errmsg="图片验证码失效")
