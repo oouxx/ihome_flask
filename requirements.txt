@@ -26,10 +26,10 @@ olefile==0.44
 pathlib2==2.3.3
 pexpect==4.6.0
 pickleshare==0.7.5
-Pillow==4.2.1
+Pillow
 prompt-toolkit==1.0.15
 ptyprocess==0.6.0
-pycryptodome==3.4.7
+pycryptodome
 Pygments==2.3.1
 PyMySQL==0.9.3
 python-alipay-sdk==1.4.0
